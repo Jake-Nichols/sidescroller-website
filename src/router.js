@@ -19,8 +19,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (game.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () =>
-        import(/* webpackChunkName: "game" */ "./views/Game.vue")
+      component: () => import(/* webpackChunkName: "game" */ "./views/Game.vue")
     }
   ]
 });
