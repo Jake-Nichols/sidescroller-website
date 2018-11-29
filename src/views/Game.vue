@@ -3,7 +3,7 @@
     <h1>Play the game below</h1>
     <iframe src="https://google.co.uk"></iframe>
     <h2>Bug/Feedback Form</h2>
-    <form name="bug/feedback" action="/game" netlify>
+    <form name="bug/feedback" action="/game" method="POST" netlify>
         <p>
             <label>Name <input type="text" name="name" /></label>
         </p>
